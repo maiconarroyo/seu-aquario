@@ -1,0 +1,8 @@
+
+.main-presentation{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 257px;
+    width: 566px;
+}

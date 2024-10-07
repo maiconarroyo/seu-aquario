@@ -1,0 +1,29 @@
+.main-content{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    width: 1440px;
+    height: 699px;
+    background-color: #1C324C;
+   
+}
+.main-body{
+    display: flex;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.lef-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+@media (max-width: 1900px) {
+.main-content{
+    width: 610px;
+
+}
+}

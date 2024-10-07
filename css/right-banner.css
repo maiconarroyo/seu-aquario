@@ -1,0 +1,22 @@
+
+.rigth-content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.rigth-banner{
+    margin: 0;
+}
+
+.rigth-figure{
+    border-radius: 10%;
+    width: 260px;
+    margin: 0;
+}
+@media (max-width:1900px){
+    .rigth-content{
+        display: none;
+    }
+ }

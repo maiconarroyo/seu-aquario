@@ -1,0 +1,5 @@
+.main-social{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}

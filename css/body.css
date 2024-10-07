@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0F7EA9;
+    height: 50vw;
+    margin: auto;
+}
+@media (max-width: 1900px){
+    body{
+        width: 0;       
+        display:inline;
+    }
+}

@@ -1,0 +1,39 @@
+.main-recomend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-figure{
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: -05px;
+
+    
+}
+
+.main-tumb{
+    height: 90px;
+    display: block;
+    border-radius: 10%;
+    border: 3px solid white;
+    position: relative;
+}
+@media (max-width: 1900px){
+    .main-tumb{
+        height: 70px;
+    }
+    .main-figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 0;
+    margin-left: 10px;
+    }
+}

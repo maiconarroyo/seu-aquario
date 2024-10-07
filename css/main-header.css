@@ -1,0 +1,64 @@
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    width: 100%;
+
+}
+
+.main-logo{
+    margin-top: 15px;
+    height:65px ;
+}
+.main-nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.main-action{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    font-family: "Fira Code", Arial, Helvetica , sans-serif;
+}
+
+.main-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 91px;
+    height: 38px;
+    color: black;
+    font-family: "Fira Code", Arial, Helvetica , sans-serif;
+
+}
+.main-buttom.-calculadora{
+    width: 100px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100px;
+    height: 55px;
+    color: black;
+    font-family: "Fira Code", Arial, Helvetica , sans-serif;
+    margin-left: 30px;
+
+}
+@media (max-width: 1900px) {
+    .main-action{
+        height: 50%;
+        font-size: 10px;
+    }
+    .main-buttom{
+        height: 50%;
+    }
+}
