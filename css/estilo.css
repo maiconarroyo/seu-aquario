@@ -21,9 +21,11 @@
     max-width: 50%;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 610px) {
 .main-content{
     width: 610px;
-
+}
+.lef-content{
+    width: 100%;
 }
 }

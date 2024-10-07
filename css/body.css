@@ -7,7 +7,7 @@ body{
     height: 50vw;
     margin: auto;
 }
-@media (max-width: 1900px){
+@media (max-width: 610px){
     body{
         width: 0;       
         display:inline;

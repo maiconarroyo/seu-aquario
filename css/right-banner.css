@@ -15,7 +15,7 @@
     width: 260px;
     margin: 0;
 }
-@media (max-width:1900px){
+@media (max-width:610px){
     .rigth-content{
         display: none;
     }

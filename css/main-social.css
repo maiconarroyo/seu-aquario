@@ -3,3 +3,9 @@
     justify-content: left;
     align-items: start;
 }
+@media (max-width: 610px){
+    .main-social{
+        align-items: center;
+        justify-content: center;
+    }
+}
