@@ -18,6 +18,8 @@
     color: #1C324C;
     cursor: pointer;
 }
+
+
 .icon-calculator{
     background-color: white;
     height: 50px;
@@ -35,6 +37,17 @@
     margin-left: 30px;
     margin-right: 10px;
     cursor: pointer;
+}
+.icon-social.-youtube{
+    color: red;   
+}
+
+.icon-social.-whats{
+    color: green;
+}
+
+.icon-social.-linkedin{
+    color:  #0A66C2;
 }
 
 @media (max-width: 610px){
