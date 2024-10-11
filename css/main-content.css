@@ -1,8 +1,7 @@
 .main-content{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     width: 100%;
     width: 1440px;
     height: 699px;
@@ -24,8 +23,11 @@
 @media (max-width: 610px) {
 .main-content{
     width: 610px;
+    height: fit-content;
 }
 .lef-content{
     width: 100%;
 }
 }
+
+

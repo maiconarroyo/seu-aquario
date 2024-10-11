@@ -25,7 +25,23 @@
 .sub-title.-resultado{
     font-weight: 700;
     padding: 0;
-    margin: 0;
     margin-top: 10px;
 
+}
+
+.sub-title.-about{
+    font-weight: 360;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 610px) {
+
+    .sub-title.-about{
+    font-size: 18px; 
+    margin-left: 15px; 
+    text-align: center;
+    margin-right: 15px;
+    max-width: 500px;
+    }
 }

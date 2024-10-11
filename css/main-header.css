@@ -4,6 +4,8 @@
     justify-content: flex-start;
     padding: 15px;
     width: 100%;
+    
+    
 
 }
 
@@ -53,6 +55,9 @@
 
 }
 @media (max-width: 610px) {
+    .main-header{
+        position: relative;
+    }
     .main-action{
         height: 50%;
         font-size: 10px;
