@@ -1,7 +1,6 @@
 .main-about{
     display: flex;
     align-items: normal;
-    justify-content: end;
     min-height: 482px;
     width: 1440px;
     box-sizing: border-box;
@@ -23,3 +22,4 @@
     }
     
     
+  

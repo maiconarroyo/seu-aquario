@@ -21,6 +21,7 @@
 
 
 .icon-calculator{
+    display: flex;
     background-color: white;
     height: 50px;
     width: 40px;

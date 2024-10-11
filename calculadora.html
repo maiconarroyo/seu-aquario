@@ -23,9 +23,10 @@
     <link rel="stylesheet" href="css/main-content.css">
     <link rel="stylesheet" href="css/main-header.css">
     <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/main-img.css">
+    <link rel="stylesheet" href="css/main-about.css">
+    <link rel="stylesheet" href="css/main-calculator.css">
     <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/main-presentation.css">
-    <link rel="stylesheet" href="css/main-recomend.css">
     <link rel="stylesheet" href="css/main-social.css">
     <link rel="stylesheet" href="css/right-banner.css">
 
@@ -45,41 +46,44 @@
                 </section>
                 <a href="" class="main-buttom">Login</a>
             </div>
-            <div class="conteudo">
-            <div class="lef-content">
-                <div class="main-presentation">
-                    <h1 class="main-title">Bem-vindo ao Seu Aquário!</h1>
-                    <h2 class="sub-title">Aprenda mais sobre esse mundo maravilhoso do aquarismo, encontre ferramentas e conteúdos pratricos para ajudar no hobbie. 
-                        Receba ajuda para lidar com o aquarismo da melhor froma possivel.
-                        Teste agora mesmo nossa calculadora de Amônia
-                    </h2>
-                    <a href="calculadora.html">
-                    <ion-icon name="calculator-outline" class="icon-calculator">Calculadora de Amônia</ion-icon>
-                    </a>
-                   <p  class="sub-title -resultado"> Veja Agora Como Está sua Amônia</p>
+            <div class="main-about">
+                <figure class="figure-about">
+                    <img src="assets/amonia calc.jpg" alt="" class="about-img">
+                    <figcaption class="about-description">
+                        <div class="about-amonia">
+                        <h1 class="main-title -about">Calculadora de Amônia</h1>
+                        <p class="sub-title">A amônia é um composto tóxico produzido pela decomposição de resíduos de peixes, restos de alimentos e outros detritos no aquário. Quando não é adequadamente filtrada ou convertida em compostos menos nocivos, como nitrito e nitrato, pode causar problemas graves de saúde nos peixes, incluindo danos nas brânquias, estresse e, em níveis altos, até a morte. Monitorar e calcular a amônia tóxica é crucial para manter um ambiente saudável no aquário, garantindo que os níveis permaneçam seguros para os peixes e promovendo um ecossistema equilibrado.</p>
+                        <p class="sub-title -resultado">Calcule Sua Amônia Aqui</p>
+                        </div>
+                        <div class="align-calculator">
+                            <ion-icon onclick="hidem()" name="calculator-outline" class="icon-calculator"></ion-icon>
+                        </div>
+                    </figcaption>
+                </figure>
+                <div class="calcular-amonia">
+                    <div class="input-group">
+                    <label class="sub-title -calculator" for="amonia">Amônia</label>
+                    <input class="main-input" type="text" name="amonia" id="number" placeholder="Exemplo 1.0">
+                    </div>
+                    
+                    <div class="input-group">
+                    <label class="sub-title -calculator" for="ph">Ph</label>
+                    <input class="main-input -ph" type="text" name="ph" id="number" placeholder="Exemplo 7.0">
+                    </div>
+                    
+                    <div class="input-group">
+                    <label class="sub-title -calculator" for="temperatura">Temp.</label>
+                    <input class="main-input -temperatura " type="text" name="temperatura" id="" placeholder="Exemplo 26">
+                    </div>
+                    <div class="input-group">
+                    <h2 class="sub-title -resultado">calcular</h2>
+                    <ion-icon onclick="amonia()" name="calculator-outline" class="icon-calculator"></ion-icon>
+                    </div>
+                    <div class="resultado" id="resultado" style="display:none;">
+                        <h2 class="sub-title -resultado"></h2>
+                    </div>
                 </div>
-
-                <div class="main-recomend">
-
-                    <h1 class="main-title">Recomendações</h1>
-                    <figure class="main-figure">
-                        <a href="https://www.youtube.com/playlist?list=PL-vWHq8R5jChLF8fcWMJUUKcYCaWLPOkL" target="_blank">
-                        <img src="assets/recomendados/primeiro-amonia.webp" alt="zerar amônia" class="main-tumb">
-                        </a>
-                    </figure>
-                    <figure class="main-figure">
-                        <a href="https://www.youtube.com/playlist?list=PL-vWHq8R5jCgUxlDPSe8hHaunmzEh6P4V" target="_blank">
-                        <img src="assets/recomendados/peixes-aguadoce.webp" alt="agua doce" class="main-tumb">
-                        </a>
-                    </figure>
-                    <figure class="main-figure">
-                        <a href="https://youtu.be/W7AloqBpvbU">
-                        <img src="assets/recomendados/terceiro.jpg" alt="" class="main-tumb">
-                        </a>
-                        
-                    </figure>
-                
-                </div>
+            </div>
                 <div class="main-social">
                     <figure class="social-icon">
                         <a href="https://www.youtube.com/@Seuaquario">
@@ -99,18 +103,7 @@
                 </div>
                 
         </div>
-        <div class="rigth-content">
-            <figure class="rigth-banner"><img class="rigth-figure" src="assets/esquerda/cacudo-banner.png" alt=""></figure>
-            <a href="calculadora.html">
-            <figure class="rigth-banner"><img class="rigth-figure"  name="calculator-outline" src="assets/esquerda/oscar.png" alt=""></figure>
-            </a>
-            <figure class="rigth-banner"><img class="rigth-figure" src="assets/esquerda/peixe betta.png" alt=""></figure>
-            </div>
-
-        </div>
-
-        </div>
     </div>
-    
+    <script src="javaScript/teste.js"></script>
 </body>
 </html>

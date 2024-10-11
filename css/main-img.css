@@ -1,4 +1,6 @@
 .about-img{
+    display: flex;
+    justify-content: baseline;
     height: 290px;
     border-radius: 10%;
 }

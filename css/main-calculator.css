@@ -1,0 +1,90 @@
+.align-calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-amonia{
+    display: flex;
+    flex-direction: column;
+}
+.calcular-amonia {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.5)  ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
+
+.main-input {
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 100px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff; 
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.main-input.-ph{
+    margin-left: 75px;
+}
+
+.main-input.-temperatura{
+    margin-left: 37px;
+}
+
+.calculate-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.calculate-btn:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 610px) {
+    .figure-about {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .about-img {
+        width: 100%; 
+        height: auto; 
+    }
+    
+    .about-description {
+        text-align: center; 
+    }
+    
+    .main-about {
+        align-items: center;
+        min-height: auto;
+        flex-direction: column;
+        width: auto;
+    }
+}
