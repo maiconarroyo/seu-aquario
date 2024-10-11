@@ -37,7 +37,7 @@ function amonia() {
         resultadoDiv.style.backgroundColor = 'green';
         resultadoTexto.style.color = 'white';
         resultadoTexto.textContent = "Níveis de Amônia Seguros";
-    } else if (amoniaToxica <= 0.086) {
+    } else if (amoniaToxica <= 0.039    ) {
         resultadoDiv.style.backgroundColor = 'yellow';
         resultadoTexto.style.color = 'black';
         resultadoTexto.textContent = "Cuidado! Níveis de Amônia Moderado";
