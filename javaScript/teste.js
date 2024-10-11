@@ -33,7 +33,7 @@ function amonia() {
     const resultadoTexto = resultadoDiv.querySelector('.sub-title.-resultado');
     resultadoDiv.style.display = 'block';
 
-    if (amoniaToxica <= 0.001) {
+    if (amoniaToxica <= 0.018) {
         resultadoDiv.style.backgroundColor = 'green';
         resultadoTexto.style.color = 'white';
         resultadoTexto.textContent = "Níveis de Amônia Seguros";
